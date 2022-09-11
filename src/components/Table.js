@@ -18,13 +18,13 @@ const columns = [
 
 export default function DataTable(props) {
   return (
-    <div style={{ height: 1500, width: '100%' }}>
+    <div style={{ height: 800, width: '100%' }}>
       <DataGrid
         getRowId={(row) => row.security_id}
         rows={props.rows}
         columns={columns}
-        pageSize={25}
-        rowsPerPageOptions={[25, 50, 100]}
+        pageSize={13}
+        rowsPerPageOptions={[15]}
         checkboxSelection
         sx={{
             boxShadow: 2,
