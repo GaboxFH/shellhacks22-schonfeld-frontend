@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import '../styles/App.css';
 import Quote from './Quote';
 import SearchBar from './SearchBar';
+import Table from './Table'
 import { requestQuotes } from '../apis/animeChan';
 
 const App = () => {
@@ -40,7 +41,7 @@ const App = () => {
         </p>
       }
       <div className='main-content'>
-        {renderedQuotes}
+        <Table rows={quotes}></Table>
       </div>
 
     </div>

@@ -1,5 +1,5 @@
 .app{
-    width: 80%;
+    width: 100%;
     margin: auto;
     color: white;
     height: min-content;
@@ -20,7 +20,7 @@
   
   .no-results{
     padding: 0 5%;
-    color: grey;
+    color: red;
     font-size: .8em;
   }
   

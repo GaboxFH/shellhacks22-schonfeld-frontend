@@ -1,5 +1,5 @@
 .searchbar{
-    width: 100%;
+    width: 30%;
     padding: 5%;
     padding-top: 0;
 }
@@ -11,7 +11,7 @@
     border: solid 1px white;
     background-color: rgba(255, 255, 255, .13);
     color: white;
-    font-size: 1em;
+    font-size: 2em;
 }
 
 .searchbar-input:focus{

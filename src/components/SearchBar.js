@@ -27,7 +27,7 @@ const SearchBar = ({onSearchSubmit, clearResults}) => {
         <input 
             className='searchbar-input' 
             type='text' 
-            placeholder="Search by title. . ."
+            placeholder="Search by street ID. . ."
             onChange={e => setDebouncedTerm(e.target.value)}
             value={debouncedTerm}/>
       </div>
