@@ -25,19 +25,22 @@ export default function DataTable(props) {
         columns={columns}
         pageSize={13}
         rowsPerPageOptions={[15]}
-        checkboxSelection
         sx={{
+            backgroundColor: 'white',
             boxShadow: 2,
             border: 5,
             borderColor: 'primary.light',
             '& .MuiDataGrid-cell': {
-              color: 'white',
+              backgroundColor: 'white',
             },
             '& .MuiDataGrid-cell:hover': {
-                color: 'orange',
+                backgroundColor: 'orange',
               },
-              '& .MuiDataGrid-columnHeader': {
-                color: 'white',
+              '& .MuiDataGrid-columnHeaders': {
+                backgroundColor: 'white',
+              },
+              '& .MuiDataGrid-columnFooters': {
+                backgroundColor: 'white',
               },
           }}
       />

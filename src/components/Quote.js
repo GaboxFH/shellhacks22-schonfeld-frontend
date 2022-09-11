@@ -1,10 +1,9 @@
-import React from 'react';
-
-import '../styles/Quote.css';
-
 const Quote = ({quote}) => {
   return (
       <tr className='quote-table'>
+        <td className='quote'>
+            <span className='highlight'> {quote.weight.toFixed(2)} </span>
+        </td>
         <td className="quote">
           <span className='highlight'> {quote.security_id} </span>
         </td>
@@ -41,5 +40,3 @@ const Quote = ({quote}) => {
       </tr>
     );
 };
-    
-export default Quote;
